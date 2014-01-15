@@ -1,0 +1,19 @@
+{
+  "name": "cached-resolver",
+  "description": "Resolve URLs and cache results to Redis",
+  "version": "0.1.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "nodeunit test"
+  },
+  "author": "Andris Reinman",
+  "dependencies": {
+    "redis": "~0.10.0",
+    "hiredis": "~0.1.16",
+    "resolver": "~0.1.11"
+  },
+  "devDependencies": {
+    "nodeunit": "~0.8.2"
+  },
+  "license": "MIT"
+}
